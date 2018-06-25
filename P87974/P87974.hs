@@ -1,0 +1,8 @@
+main = do
+    name <- getLine
+    putStrLn $ saluda name
+
+saluda x
+    | length(x) > 1  = saluda $ tail x
+    | length(x) == 1 && (x == "a" || x == "A")   = "Hola maca!"
+    | otherwise                                  = "Hola maco!"
