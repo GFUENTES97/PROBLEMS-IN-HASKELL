@@ -1,3 +1,5 @@
+-- import GFUENTES97 
+
 myFoldl :: (a -> b -> a) -> a -> [b] -> a
 myFoldl _ x [] = x
 myFoldl f x (n:ns) = myFoldl f (f x n) ns
@@ -33,3 +35,11 @@ myZip (x:xs) (n:ns) = (x,n):myZip xs ns
 
 myZipWith :: (a -> b -> c) -> [a] -> [b] -> [c]
 myZipWith f a b = myFoldr (\x xs -> (f (fst x) (snd x)):xs) [] $ myZip a b
+
+{-- 
+ - 
+ -  last update: 
+ - 
+ -  03/07/2018 12:59:10
+ - 
+ --}

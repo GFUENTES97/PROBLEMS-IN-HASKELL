@@ -1,3 +1,5 @@
+-- import GFUENTES97 
+
 main = do
     line <- getLine
     if length(line) > 1 then do
@@ -16,3 +18,11 @@ message m h
 process l = putStrLn $ name ++": "++ message m h
     where   (name:xs) = words l
             (m:h:_) = map read $ xs :: [Float]
+
+{-- 
+ - 
+ -  last update: 
+ - 
+ -  03/07/2018 12:59:10
+ - 
+ --}

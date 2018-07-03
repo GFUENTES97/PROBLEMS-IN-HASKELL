@@ -1,3 +1,5 @@
+-- import GFUENTES97 
+
 absValue :: Int -> Int
 absValue n = 
     if n < 0 then n*(-1)
@@ -44,3 +46,12 @@ quickFib n
     
     
     
+
+
+{-- 
+ - 
+ -  last update: 
+ - 
+ -  03/07/2018 12:59:10
+ - 
+ --}

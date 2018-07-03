@@ -1,3 +1,5 @@
+-- import GFUENTES97 
+
 data Queue a = Queue [a] [a]
     deriving (Show)
 
@@ -30,3 +32,11 @@ instance Eq a => Eq (Queue a) where
     q1@(Queue ar al) == q2@(Queue br bl) 
         | len(q1) /= len(q2) = False
         | otherwise  = all (==True) $ zipWith (==) (ar ++ (reverse al)) (br ++ (reverse bl)) 
+
+{-- 
+ - 
+ -  last update: 
+ - 
+ -  03/07/2018 12:59:10
+ - 
+ --}

@@ -1,3 +1,5 @@
+-- import GFUENTES97 
+
 eql :: [Int] -> [Int] -> Bool
 eql x y = (length x) == (length y) && all (==True) (zipWith (==) x y)
 
@@ -12,3 +14,12 @@ powersOf2 = iterate (2*) 1
 
 scalarProduct:: [Float] -> [Float] -> Float
 scalarProduct xs ns = foldl (\acc n -> acc + n) 0 (zipWith (*) xs ns)
+
+
+{-- 
+ - 
+ -  last update: 
+ - 
+ -  03/07/2018 12:59:10
+ - 
+ --}

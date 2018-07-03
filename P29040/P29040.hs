@@ -1,3 +1,5 @@
+-- import GFUENTES97 
+
 isort::[Int] -> [Int]
 isort []     = []
 isort (x:xs) = insert (isort xs) x 	
@@ -41,3 +43,11 @@ genQsort :: Ord a => [a] -> [a]
 genQsort [] = []
 genQsort (x : xs) = (genQsort a) ++ [x] ++ (genQsort b)
   where (a,b) = (filter (<=x) xs, filter (>x) xs)
+
+{-- 
+ - 
+ -  last update: 
+ - 
+ -  03/07/2018 12:59:10
+ - 
+ --}

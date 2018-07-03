@@ -1,3 +1,5 @@
+-- import GFUENTES97 
+
 countIf::(Int -> Bool) -> [Int] -> Int
 countIf f l = foldr (\x y -> if f x then (y + 1) else y) 0 l
 
@@ -15,3 +17,11 @@ insert f l x = takeWhile (not.f x) l ++ [x] ++ dropWhile (not.f x) l
 
 insertionSort:: (Int -> Int -> Bool) -> [Int] -> [Int]
 insertionSort c l = foldr (\x xs -> insert c xs x) [] l
+
+{-- 
+ - 
+ -  last update: 
+ - 
+ -  03/07/2018 12:59:10
+ - 
+ --}

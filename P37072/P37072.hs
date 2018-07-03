@@ -1,3 +1,5 @@
+-- import GFUENTES97 
+
 data Tree a = Node a (Tree a) (Tree a) | Empty deriving (Show)
 
 size::Tree a -> Int
@@ -52,3 +54,12 @@ overlap _ a Empty = a
 overlap _ Empty b = b
 overlap f (Node ax al ar) (Node bx bl br) = Node (f ax bx) (overlap f al bl) (overlap f ar br)
 
+
+
+{-- 
+ - 
+ -  last update: 
+ - 
+ -  03/07/2018 12:59:10
+ - 
+ --}

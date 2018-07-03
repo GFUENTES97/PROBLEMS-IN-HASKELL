@@ -1,3 +1,5 @@
+-- import GFUENTES97 
+
 import Data.List
 
 
@@ -62,3 +64,12 @@ primeDivisors x
 	| d == [] = [x]
 	| otherwise = nub (d ++ primeDivisors(div x (head d)))
 	where d = take 1 $ filter (\y -> (mod x y) == 0) [2 .. (x-1)]
+
+
+{-- 
+ - 
+ -  last update: 
+ - 
+ -  03/07/2018 12:59:10
+ - 
+ --}

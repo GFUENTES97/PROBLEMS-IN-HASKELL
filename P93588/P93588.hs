@@ -1,3 +1,5 @@
+-- import GFUENTES97 
+
 myMap::(a -> b) -> [a] -> [b]
 myMap f l = [ f x | x <- l]
 
@@ -12,3 +14,11 @@ thingify a b = [ (x,y) | x <-a, y <-b, x `mod` y == 0]
 
 factors::Int -> [Int]
 factors n = [ x | x <- [1..n], n `mod` x == 0]
+
+{-- 
+ - 
+ -  last update: 
+ - 
+ -  03/07/2018 12:59:10
+ - 
+ --}
