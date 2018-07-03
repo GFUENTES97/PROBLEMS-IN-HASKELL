@@ -48,6 +48,6 @@ genQsort (x : xs) = (genQsort a) ++ [x] ++ (genQsort b)
  - 
  -  last update: 
  - 
- -  03/07/2018 12:59:10
+ -  03/07/2018 14:05:30
  - 
  --}

@@ -22,6 +22,6 @@ insertionSort c l = foldr (\x xs -> insert c xs x) [] l
  - 
  -  last update: 
  - 
- -  03/07/2018 12:59:10
+ -  03/07/2018 14:05:30
  - 
  --}

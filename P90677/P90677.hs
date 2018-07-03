@@ -40,6 +40,6 @@ myZipWith f a b = myFoldr (\x xs -> (f (fst x) (snd x)):xs) [] $ myZip a b
  - 
  -  last update: 
  - 
- -  03/07/2018 12:59:10
+ -  03/07/2018 14:05:30
  - 
  --}

@@ -20,6 +20,6 @@ scalarProduct xs ns = foldl (\acc n -> acc + n) 0 (zipWith (*) xs ns)
  - 
  -  last update: 
  - 
- -  03/07/2018 12:59:10
+ -  03/07/2018 14:05:30
  - 
  --}
